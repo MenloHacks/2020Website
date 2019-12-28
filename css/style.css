@@ -1143,6 +1143,9 @@ h4,.h4 {
     /* background: url(../img/home/countdown-minute.png) left center no-repeat; */
     background-size: cover
     }
+.clockdiv .clockdiv-second {
+    background-size: cover
+    }
 
 .card-feature {
     text-align: center
