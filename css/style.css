@@ -1078,14 +1078,21 @@ h4,.h4 {
 }
 
 
+.clockdiv-section-intro__title {
+    font-size: 32px;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: uppercase;
+    margin-bottom: 0
+    }
 
 .clockdiv {
-    margin-bottom: 35px
+    margin-bottom: 20px
     }
 
 .clockdiv li {
     display: inline-block;
-    margin-right: 30px
+    margin-right: 5px
     }
 
 @media (max-width: 320px) {
@@ -1101,37 +1108,42 @@ h4,.h4 {
     }
 
 .clockdiv h1 {
-    font-size: 27px;
+    font-size: 115px;
     font-weight: 500;
     margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
     line-height: 1;
     color: #3b1d82
     }
 
 .clockdiv .smalltext {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 300
     }
 
 .clockdiv .clockdiv-single {
-    width: 130px;
+    width: 200px;
     height: 145px;
     text-align: center;
     padding-top: 45px
     }
 
 .clockdiv .clockdiv-day {
-    background: url(../img/home/countdown-day.png) left center no-repeat;
+    /* background: url(../img/home/countdown-day.png) left center no-repeat; */
     background-size: cover
     }
 
 .clockdiv .clockdiv-hour {
-    background: url(../img/home/countdown-hour.png) left center no-repeat;
+    /* background: url(../img/home/countdown-hour.png) left center no-repeat; */
     background-size: cover
     }
 
 .clockdiv .clockdiv-minute {
-    background: url(../img/home/countdown-minute.png) left center no-repeat;
+    /* background: url(../img/home/countdown-minute.png) left center no-repeat; */
+    background-size: cover
+    }
+.clockdiv .clockdiv-second {
     background-size: cover
     }
 
@@ -1218,6 +1230,13 @@ h4,.h4 {
     width: 90%;
     height: 90%
     }
+.card-speaker-judges {
+    border: 10px solid #fff;
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    height: 98%
+    }
 
 .card-speaker .speaker-footer {
     position: absolute;
@@ -1231,6 +1250,19 @@ h4,.h4 {
     transition: all .7s ease
     }
 
+.card-speaker-judges .speaker-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(59,29,130,0.9);
+    padding: 22px 5px;
+    z-index: 2;
+    transition: all .7s ease
+    }
+
+
 .card-speaker .speaker-footer h4 {
     margin-bottom: 0;
     color: #fff;
@@ -1239,6 +1271,19 @@ h4,.h4 {
     }
 
 .card-speaker .speaker-footer p {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 14px
+    }
+
+.card-speaker-judges .speaker-footer h4 {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 3px
+    }
+
+.card-speaker-judges .speaker-footer p {
     margin-bottom: 0;
     color: #fff;
     font-size: 14px
@@ -1267,6 +1312,31 @@ h4,.h4 {
 .card-speaker:hover .speaker-footer {
     background: rgba(234,7,99,0.6)
     }
+
+.card-speaker-judges .speaker-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(59,29,130,0.8);
+    z-index: 1;
+    transform: translateY(-60px);
+    opacity: 0;
+    z-index: -1;
+    transition: all .6s ease
+    }
+
+.card-speaker-judges:hover .speaker-overlay {
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(0)
+    }
+
+.card-speaker-judges:hover .speaker-footer {
+    background: rgba(234,7,99,0.6)
+    }
+
 
 @media only screen and (max-width: 400px){
     .card-speaker-founders {
