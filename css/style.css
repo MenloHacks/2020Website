@@ -1620,7 +1620,11 @@ h4,.h4 {
     }
 
 .schedule-content {
-    padding: 10px
+    padding: 10px;
+    margin-left: 300px;
+    /* margin-left is only a temporary solution to center alignment!
+       needs to be changed for card-identity
+    */
     }
 
 @media (min-width: 768px) {
@@ -1632,12 +1636,13 @@ h4,.h4 {
     }
 
 .schedule-content .schedule-date {
-    font-size: 14px
+    font-size: 14px;
     }
 
 .schedule-content .schedule-title {
     display: inline-block;
     margin-bottom: 8px;
+    font-size: 15px;
     }
 
 .schedule-card {
