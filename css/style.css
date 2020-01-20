@@ -1621,10 +1621,6 @@ h4,.h4 {
 
 .schedule-content {
     padding: 10px;
-    margin-left: 300px;
-    /* margin-left is only a temporary solution to center alignment!
-       needs to be changed for card-identity
-    */
     }
 
 @media (min-width: 768px) {
