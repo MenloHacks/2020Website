@@ -3253,7 +3253,8 @@ h4,.h4 {
 
 .button-header {
     color: #fff;
-    border-color: #66CDAA;
+    /*border-color: #66CDAA; */
+    background: #66CDAA;
     }
 
 .button-header:hover {
