@@ -1975,11 +1975,15 @@ h4,.h4 {
 
 
     @media screen and (max-width: 32em) {
-        .bronze-sponsor {
+        
+        .iron-sponsor {
             max-width: 25%;
         }
-        .silver-sponsor {
+        .bronze-sponsor {
             max-width: 30%;
+        }
+        .silver-sponsor {
+            max-width: 35%;
         }
         .gold-sponsor {
             max-width: 40%;
@@ -1990,58 +1994,69 @@ h4,.h4 {
     }
 
     @media screen and (min-width:32em) {
+        
+        .iron-sponsor {
+            max-width: 12em;
+        }        
         .bronze-sponsor {
             max-width: 15em;
         }
         .silver-sponsor {
-            max-width: 17em;
-        }
-        .gold-sponsor {
             max-width: 20em;
         }
+        .gold-sponsor {
+            max-width: 28em;
+        }
         .platinum-sponsor {
-            max-width: 24em;
+            max-width: 35em;
         }
     }
 
-
-    .bronze-sponsor {
+    .iron-sponsor {
         max-height: 5em;
         margin-left: 3.5em;
         margin-right: 3.5em;
         margin-bottom: 1em;
+        width: 10%;
+        vertical-align: middle;
+
+    }
+ 
+    .bronze-sponsor {
+        max-height: 7em;
+        margin-left: 3.5em;
+        margin-right: 3.5em;
+        margin-bottom: 2em;
         width: 20%;
         vertical-align: middle;
 
     }
 
     .silver-sponsor {
-        max-height: 10em;
-        margin-left: 3.5em;
-        margin-right: 3.5em;
-        margin-bottom: 2em;
-        width: 25%;
-        vertical-align: middle;
-
-
-    }
-
-    .gold-sponsor {
-        max-height: 20em;
+        max-height: 17em;
         margin-left: 3.5em;
         margin-right: 3.5em;
         margin-bottom: 1em;
-        width: 30%;
+        width: 45%;
+        vertical-align: middle;
+    }
+
+    .gold-sponsor {
+        max-height: 25em;
+        margin-left: 3.5em;
+        margin-right: 3.5em;
+        margin-bottom: 1em;
+        width: 55%;
         vertical-align: middle;
 
     }
 
     .platinum-sponsor {
         max-height: 25em;
-        margin-left: 3.5em;
+        margin left: 3.5em;
         margin-right: 3.5em;
         vertical-align: middle;
-        width: 100%;
+        width: 200%;
         height: auto;
     }
 
