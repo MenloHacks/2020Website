@@ -1989,7 +1989,7 @@ h4,.h4 {
             max-width: 40%;
         }
         .platinum-sponsor {
-            max-width: 45%;
+            max-width: 42%;
         }
     }
 
@@ -2007,7 +2007,7 @@ h4,.h4 {
             max-width: 28em;
         }
         .platinum-sponsor {
-            max-width: 35em;
+            max-width: 30em;
         }
     }
 
@@ -2042,7 +2042,7 @@ h4,.h4 {
     }
 
     .gold-sponsor {
-        max-height: 16em;
+        max-height: 14em;
         margin-left: 3.5em;
         margin-right: 3.5em;
         margin-bottom: 1em;
@@ -2052,11 +2052,11 @@ h4,.h4 {
     }
 
     .platinum-sponsor {
-        max-height: 19em;
+        max-height: 18em;
         margin-left: 3.5em;
         margin-right: 3.5em;
         vertical-align: middle;
-        width: 60%;
+        width: 54%;
         height: auto;
     }
 
